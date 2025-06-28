@@ -32,9 +32,8 @@ Antes de ejecutar los scripts, asegúrate de tener:
 
 1. Dale permiso al lanzador:
 
-./instalar postman      # Instala Postman
-./instalar docker       # Instala Docker + Docker Compose
-./instalar snap         # (opcional) Elimina y bloquea Snap
+- ./instalar postman      # Instala Postman
+- ./instalar docker       # Instala Docker + Docker Compose
 
 
 ```bash
