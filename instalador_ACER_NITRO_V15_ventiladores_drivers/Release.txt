@@ -1,0 +1,14 @@
+Div Acer Manager v0.5.0
+
+DAMFC_GUI v1.20
+
+DAMFC_Daemon v0.8.6
+Packaged without OPENSSL Libraries
+    -> DAMFC_HardwareStatus v0.1.2
+    -> DAMFC_DriverManager v0.3.1
+    	Removed Sudo Implementations
+   
+   
+NitroDrivers v1.21
+    
+Setup Script v0.2.7
