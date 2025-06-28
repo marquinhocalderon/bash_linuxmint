@@ -32,9 +32,9 @@ Antes de ejecutar los scripts, asegúrate de tener:
 
 1. Dale permiso al lanzador:
 
-- ./instalar postman      # Instala Postman
-- ./instalar docker       # Instala Docker + Docker Compose
+- ./instalarpostman      # Instala Postman
+- ./instalardocker       # Instala Docker + Docker Compose
 
 
 ```bash
-chmod +x instalar
+chmod +x ./instalar[app-ejecutar]
