@@ -37,5 +37,6 @@ Antes de ejecutar los scripts, asegúrate de tener:
 
 
 ```bash
-chmod +x ./instalar[nombre_app] && ./instalar[nombre_app]
+chmod +x ./instalar[nombre_app] 
+chmod ./instalar[nombre_app]
 
