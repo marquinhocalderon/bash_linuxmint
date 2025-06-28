@@ -1,42 +1,41 @@
 # 🐧 Instaladores Linux Mint – Acer Nitro
 
-Este repositorio (o carpeta) contiene mis scripts personalizados para configurar aplicaciones esenciales en mi laptop **Acer Nitro** con **Linux Mint**. Está pensado para facilitar la instalación rápida, limpia y libre de Snap, respetando la filosofía de Mint. Si usas Linux Mint en cualquier equipo, también puedes aprovecharlo 💻✅
+Este repositorio contiene mis scripts personalizados para configurar aplicaciones esenciales en mi laptop **Acer Nitro** con **Linux Mint**. Está diseñado para facilitar una instalación rápida, limpia y sin Snap, en línea con la filosofía de Linux Mint.
+
+📌 **Este proyecto es de uso personal**, pero cualquiera que use Linux Mint puede aprovecharlo. 💻✅
 
 ---
 
 ## 🛠️ ¿Qué contiene?
 
-- ✅ Instalador manual de **Postman** (sin Snap, sin Flatpak), aca tendre algunos mas ejecutables como instalaciones para linux mint
-- ✅ Script con limpieza automática y acceso al menú
-- ❌ Snap completamente deshabilitado
-- 📂 Organización clara por scripts
+- ✅ Instalador manual de **Postman** (sin Snap, sin Flatpak)  
+- ✅ Instalador completo de **Docker + Docker Compose**
+- ❌ Script para eliminar y bloquear Snap
+- ✅ Scripts con mensajes de progreso, limpieza automática y menús visibles
+- 📂 Organización clara por scripts ejecutables
 
 ---
 
 ## 📦 Requisitos previos
 
 Antes de ejecutar los scripts, asegúrate de tener:
+
 - Linux Mint 21.x o superior
 - Acceso de administrador (`sudo`)
 - Conexión a internet
 - Carpeta `Descargas` disponible
+- Terminal con soporte ANSI para colores (la predeterminada de Mint funciona perfecto)
 
 ---
 
-## 🚀 Instalador de Postman
+## 🚀 Cómo usar los scripts
 
-Script: `instalar-postman.sh`
+1. Dale permiso al lanzador:
 
-### 🔧 ¿Qué hace?
+./instalar postman      # Instala Postman
+./instalar docker       # Instala Docker + Docker Compose
+./instalar snap         # (opcional) Elimina y bloquea Snap
 
-1. Descarga la última versión de Postman desde el sitio oficial
-2. Descomprime y mueve a `/opt/postman`
-3. Crea un acceso directo a `/usr/bin/postman`
-4. Agrega Postman al menú de Mint (ícono incluido)
-5. Recarga el sistema de aplicaciones para que aparezca de inmediato
-
-### ▶️ Cómo usarlo
 
 ```bash
-chmod +x instalar-postman.sh
-./instalar-postman.sh
+chmod +x instalar
