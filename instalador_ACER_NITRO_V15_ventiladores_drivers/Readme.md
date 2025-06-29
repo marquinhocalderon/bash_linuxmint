@@ -64,4 +64,4 @@ La mayoría de modelos **Nitro** y **Predator** de los últimos años están sop
    sudo ./SetupDrivers.sh
 3. Elige la opción **1** para instalar.
 4. Reiniciar Equipo
-5. Luego de Reiniciar. Abrir en el menu Aplicaciones DAM Fan Controls
+5. Luego de Reiniciar. Abrir en el menu Aplicaciones y buscar **DAM Fan Controls**
