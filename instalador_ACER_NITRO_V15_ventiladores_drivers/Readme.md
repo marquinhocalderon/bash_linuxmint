@@ -53,8 +53,7 @@ La mayoría de modelos **Nitro** y **Predator** de los últimos años están sop
 ## 📦 Instalación
 
 1. Descarga la **carpeta**
-2. Extrae el archivo comprimido.  
-3. Ejecuta el script de instalación:
+2. Ejecuta el script de instalación:
 
    ```bash
    sudo apt update
@@ -62,5 +61,6 @@ La mayoría de modelos **Nitro** y **Predator** de los últimos años están sop
    sudo apt install linux-headers-$(uname -r)
    cd instalador_ACER_NITRO_V15_ventiladores_drivers
    sudo ./SetupDrivers.sh
-4. Elige la opción **1** para instalar.
-5. Reiniciar Equipo
+3. Elige la opción **1** para instalar.
+4. Reiniciar Equipo
+5. Abrir en el menu Aplicaciones DAM Fan Controls
