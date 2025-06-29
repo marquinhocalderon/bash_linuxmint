@@ -52,7 +52,7 @@ La mayoría de modelos **Nitro** y **Predator** de los últimos años están sop
 
 ## 📦 Instalación
 
-1. Descarga la **carpeta**
+1. Descarga el **el repositorio total bash_linuxmint**
 2. Ejecuta el script de instalación en la Carpeta Descargas o Donwloads:
 
    ```bash
