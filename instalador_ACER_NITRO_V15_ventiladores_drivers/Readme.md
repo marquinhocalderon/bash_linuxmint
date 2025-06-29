@@ -59,6 +59,7 @@ La mayoría de modelos **Nitro** y **Predator** de los últimos años están sop
    sudo apt update
    sudo apt install lm-sensors fancontrol
    sudo apt install linux-headers-$(uname -r)
+   cd bash_linuxmint
    cd instalador_ACER_NITRO_V15_ventiladores_drivers
    sudo ./SetupDrivers.sh
 3. Elige la opción **1** para instalar.
